@@ -1,1 +1,51 @@
-body {}
+body {
+    background-color: #f7f7f8;
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+
+/* NAVBAR */
+
+#navbar {
+    height: 100px;
+    border: 1px, solid, #ffffff;
+    background-color: #ffffff;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+#menu {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#logo {
+    height: 61px;
+    width: 180px;
+    background-color: #000000;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 42px;
+    margin-right: auto;
+    margin-left: 35px;
+}
+
+a {
+    color: #7d7d7d;
+    text-decoration: none;
+    padding: 11px;
+}
+
+#kup_teraz a {
+    width: 40px;
+    background-color: #ff0000;
+    color: #ffffff;
+    margin-right: 33px;
+}
