@@ -69,13 +69,27 @@ body {
     height: 100%;
 }
 
-.video_title h2 {
+.title_subcontainer {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.title_subcontainer img {
+    margin: 25px 0px 0px 25px;
+}
+
+.title {
+    margin-right: auto;
+}
+
+.title h2 {
     color: #ffffff;
     font-weight: 100;
     margin: 25px 0px 0px 5px;
 }
 
-.video_title h3 {
+.title h3 {
     color: #d57232;
     font-weight: 100;
     margin: 0px 0px 0px 5px;
