@@ -73,11 +73,12 @@ body {
 /* INFO */
 
 .info_container {
-    padding: 90px;
+    padding: 48px 90px 45px 95px;
 }
 
 .about {}
 
 .about p {
     color: #7d7d7d;
+    text-align: justify;
 }
