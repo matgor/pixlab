@@ -76,9 +76,25 @@ body {
     padding: 48px 90px 45px 95px;
 }
 
-.about {}
+
+/* .about {} */
 
 .about p {
+    font-size: 17px;
     color: #7d7d7d;
     text-align: justify;
+}
+
+.download {
+    display: flex;
+}
+
+.download h4 {
+    margin: 8px 0px 0px 17px;
+}
+
+.download a {
+    color: #d57232;
+    text-decoration: none;
+    margin: 0px 0px 0px 17px;
 }
