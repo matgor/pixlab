@@ -15,19 +15,21 @@
 
     <!-- NAVBAR -->
     <nav>
-        <ul id="navbar">
-            <li id="logo">LOGO</li>
-            <li><a href="#">O NAS</a></li>
-            <li><a href="#">PAKIETY</a></li>
-            <li><a href="#">KIM SĄ AUTORZY</a></li>
-            <li><a href="#">KURS</a></li>
-            <li><a href="#">BLOG</a></li>
-            <li>
-                <a href="#"><img src="imgs/lock.png"></a>
-            </li>
-            <li><a href="#">TWOJE KONTO</a></li>
-            <li id="kup_teraz"><a href="#">KUP TERAZ</a></li>
-        </ul>
+        <div class="navbar">
+            <div class="logo">LOGO</div>
+            <ul class="nav_list">
+                <li><a href="#">O NAS</a></li>
+                <li><a href="#">PAKIETY</a></li>
+                <li><a href="#">KIM SĄ AUTORZY</a></li>
+                <li><a href="#">KURS</a></li>
+                <li><a href="#">BLOG</a></li>
+                <li>
+                    <a href="#"><img src="imgs/lock.png"></a>
+                </li>
+                <li><a id="your_account" href="#">TWOJE KONTO</a></li>
+                <li id="kup_teraz"><a href="#">KUP TERAZ</a></li>
+            </ul>
+        </div>
     </nav>
 
     <!-- MAIN -->
@@ -39,6 +41,7 @@
         <section class="video_container">
             <div class="video">
                 <iframe src="http://www.youtube.com/embed/B9FzVhw8_bY" width="1500" height="844" frameborder="0" allowfullscreen></iframe>
+
             </div>
             <div class="title_subcontainer">
                 <div class="title">
@@ -49,16 +52,45 @@
                         In Hell I'll Be In Good Company [Official Music Video]
                     </h3>
                 </div>
-                <div>
+                <div class="menu_button">
                     <img src="imgs/gear.png" />
                 </div>
-                <div>
-                    <img src="imgs/menu.png" />
+                <div class="menu_button">
+                    <div id="playlist_menu" class="playlist_container">
+                        <div class="playlist">
+                            <div class="playlist_panel">Panel A</div>
+                            <div class="playlist_title">
+                                <div>Tytuł A</div>
+                                <div class="playlist_title_switch"><img src="imgs/switch_background.png"></div>
+                            </div>
+                            <div class="playlist_text">Lorem ipsum dolor sit amet, eu nam meis vidisse, mea at option electram. Sit an quas aperiam, eu dolorem habemus nam. Lobortis scriptorem ad eos, est quis convenire cu.</div>
+                            <div class="playlist_item">
+                                <p>2. Reklama na facebooku</p>
+                                <div class="playlist_title_switch"><img src="imgs/switch_background.png"></div>
+                            </div>
+                            <div class="playlist_item">
+                                <p>3. Te same żarty nowe wydanie</p>
+                                <div class="playlist_title_switch"><img src="imgs/switch_background.png"></div>
+                            </div>
+                            <div class="playlist_item">
+                                <p>4. Warto próbować</p>
+                                <div class="playlist_title_switch"><img src="imgs/switch_background.png"></div>
+                            </div>
+                            <div class="playlist_item">
+                                <p>5. Zawsze może być gorzej</p>
+                                <div class="playlist_title_switch"><img src="imgs/switch_background.png"></div>
+                            </div>
+                            <div class="playlist_panel">Panel B</div>
+                        </div>
+                        <div class="arrow-down"></div>
+                    </div>
+                    <button onclick="onMenuButtonClick()"><img id="menu_button" src="imgs/menu.png" /></button>
                 </div>
-                <div>
+                <div class="menu_button">
                     <img src="imgs/arrow.png" />
                 </div>
             </div>
+
         </section>
 
         <!-- ABOUT -->
